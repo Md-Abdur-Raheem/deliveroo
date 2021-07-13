@@ -1,0 +1,198 @@
+/*----------
+ Common Styles
+ ----------- */
+body {
+    background-color: rgba(176, 252, 244, 0.692);
+    margin: 0px;
+}
+
+main {
+    margin: 50px;
+    background-color: #00ccbc;
+}
+
+/* ---------
+Top Styles
+----------- */
+.top {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.form-container h1 {
+    font-size: 40px;
+
+}
+
+#one-line {
+    border-width: 0px;
+    width: 410px;
+    height: 30px;
+}
+
+
+#two-line {
+    border-width: 0px;
+    width: 200px;
+    height: 30px;
+}
+
+#select-line {
+    border-width: 0px;
+    width: 205px;
+    height: 35px;
+}
+
+#submit-button {
+    color: Black;
+    font-weight: 900px;
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    background-color: white;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.top-image {
+    width: auto;
+    height: 600px;
+}
+
+/* ------------
+Partner Styles
+------------- */
+.partner-container {
+    margin-top: 50px;
+}
+
+.partner-container h2 {
+    text-align: center;
+}
+
+.partners {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.partner {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px -10px black;
+    ;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.partner img {
+    width: 100px;
+}
+
+/* ------------
+Saving Styles
+------------- */
+.saving {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.saving-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    color: white;
+    background-color: #440063;
+    border-radius: 5px;
+}
+
+.saving-heading {
+    padding-left: 50px;
+}
+
+.visa {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sign-in {
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    background-color: #00ccbc;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------
+Supply Styles
+------------- */
+.supply-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-column-gap: 5em;
+    justify-content: center;
+
+}
+
+.supply img {
+    width: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.supply {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.supply h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.supply p {
+    margin-top: 0px;
+}
+
+.nokta {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 450px;
+}
+
+hr {
+    margin-top: 30px;
+    width: 1000px;
+
+}
