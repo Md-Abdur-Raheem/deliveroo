@@ -3,11 +3,53 @@
  ----------- */
 body {
     background-color: rgba(176, 252, 244, 0.692);
-    margin: 0px;
+
+    /* margin: 0px; */
+
 }
 
 main {
-    margin: 50px;
+    margin: 25px 50px 50px 50px;
+    background-color: #00ccbc;
+    padding-bottom: 50px;
+}
+
+/* ---------
+Header Styles
+----------- */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
+
+}
+
+.deliveroo a {
+    font-size: 40px;
+    color: #00ccbc;
+    font-weight: 900;
+}
+
+.navigation-container a {
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.navigation a {
+    font-size: 20px;
+    color: #440063;
+}
+
+#become-button {
+    color: white;
+    font-weight: 900;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
     background-color: #00ccbc;
 }
 
@@ -73,7 +115,7 @@ Partner Styles
     margin-top: 50px;
 }
 
-.partner-container h2 {
+.partner-container h1 {
     text-align: center;
 }
 
@@ -195,4 +237,106 @@ hr {
     margin-top: 30px;
     width: 1000px;
 
+}
+
+/* ------------
+Join Styles
+------------- */
+.join-heading {
+    text-align: center;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+}
+
+.join-comment {
+    width: 500px;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.join-comment p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.join-comment small {
+    color: grey;
+}
+
+.join-comment p img {
+    width: 70px;
+}
+
+.join-image img {
+    width: 500px;
+    height: 350px;
+}
+
+/* ------------
+Sponsor Styles
+------------- */
+.sponsor-container {
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sponsor img {
+    width: 70px;
+}
+
+#speical-image img {
+    height: 70px;
+}
+
+/* ------------
+Work Styles
+------------- */
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left: 430px;
+    margin-right: 430px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px -10px black;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    grid-column-gap: 5em;
+
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work h2 {
+    margin-bottom: 0px;
+}
+
+.work img {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 150px;
+}
+
+.work p {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
 }
